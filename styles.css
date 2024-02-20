@@ -1,0 +1,189 @@
+*{
+    box-sizing: border-box;
+    padding:0px;
+    margin: 0px;
+}
+
+body{
+    height:100vh;
+    width:100%;
+    background: linear-gradient(20deg, #d9afd9, #97d9e1);
+    background-size:cover;
+    
+}
+
+.to-do{
+    background: #fff;
+    width:50%;
+    border-radius: 10px;
+   position: absolute;
+   top:20%;
+   left:30%;
+   padding:30px;
+
+    
+}
+
+.to-do h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
+    font-family: 'Protest Guerrilla';
+    
+   
+}
+
+.to-do h1 img{
+    width:30px;
+    height:30px;
+    margin-left: 20px;
+}
+
+.to-do h3{
+    margin-top:10px;
+    text-align: center;
+    font-family: 'Protest Guerrilla', sans-serif;
+}
+
+.to-do p{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.type{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    padding:5px;
+    padding-left: 20px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    background-color: #d3d3d3;
+}
+
+.type input{
+    font-family: 'Poppins', sans-serif;
+    width:100%;
+    border:none;
+    border-radius:30px;
+    padding:8px;
+    outline:none;
+    background:transparent;
+
+}
+
+.type button{
+    border:none;
+    border-radius:30px;
+    outline:none;
+    padding:15px 50px;
+    background:#d9afd9;
+    font-family: 'Poppins', sans-serif;
+    color:#fff;
+    cursor:pointer;
+
+
+}
+
+ul li {
+    position:relative;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-size:16px;
+    padding: 12px 8px 12px 50px;
+    cursor: pointer;
+}
+
+ul li::before{
+    content: '  ';
+    position:absolute;
+    top:12px;
+    left:8px;
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    background-image: url(images/stop.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+ul li.checked::before{
+    
+    background-image: url(images/verified.png);
+}
+
+ul li span {
+    position: absolute;
+    right:0;
+    top: 5px;
+    height:40px;
+    width:40px;
+    font-size:30px;
+    line-height: 40px;
+    border-radius: 15px;
+    color:#d9afd9;
+    text-align: center;
+}
+
+ul li span:hover{
+    background: #d3d3d3;
+}
+
+@media (max-width:740px){
+
+
+.to-do h1{
+    font-size:25px;
+   
+    
+   
+}
+
+.to-do h1 img{
+    width:25px;
+    height:25px;
+    
+}
+
+.to-do h3{
+    font-size: 16px;
+}
+
+.to-do p{
+    font-size: 12px;
+
+}
+
+    .type{
+        border-radius: 20px;
+        padding:5px;
+        padding-left: 10px;
+      
+    }
+    
+    .type input{
+        width:100%;
+        border-radius:20px;
+        padding:8px;
+        
+    
+    }
+    
+    .type button{
+
+        border-radius:20px;
+        padding:10px 30px;
+       
+
+    
+    
+    }
+    
+
+
+}
