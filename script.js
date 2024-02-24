@@ -42,11 +42,11 @@ taskContainer.addEventListener("click", function(e){
     }
 }, false);
 
-function storeTask(){
+/*function storeTask(){
     localStorage.setItem("data", taskContainer.innerHTML);
 }
 
 function allTask(){
     taskContainer.innerHTML = localStorage.getItem("data");
 }
-allTask();
+allTask();*/

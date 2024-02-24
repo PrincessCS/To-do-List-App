@@ -14,11 +14,11 @@ body{
 
 .to-do{
     background: #fff;
-    width:50%;
+    width:30%;
     border-radius: 10px;
    position: absolute;
    top:20%;
-   left:30%;
+   left:35%;
    padding:30px;
 
     
@@ -138,7 +138,11 @@ ul li span:hover{
 @media (max-width:740px){
 
     .to-do{
-        width:50%;
+        width:70%;
+       position: absolute;
+       top:20%;
+       left:20%;
+       padding:30px;
     }
 
 
@@ -193,6 +197,14 @@ ul li span:hover{
         font-size:13px;
         padding: 12px 8px 12px 50px;
       
+    }
+
+    ul li::before{
+        
+        width:15px;
+        height:15px;
+        
+    
     }
 
     ul li span {
