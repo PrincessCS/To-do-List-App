@@ -117,6 +117,7 @@ ul li.checked::before{
     background-image: url(images/verified.png);
 }
 
+
 ul li span {
     position: absolute;
     right:0;
@@ -136,38 +137,42 @@ ul li span:hover{
 
 @media (max-width:740px){
 
+    .to-do{
+        width:50%;
+    }
+
 
 .to-do h1{
-    font-size:25px;
+    font-size:20px;
    
     
    
 }
 
 .to-do h1 img{
-    width:25px;
-    height:25px;
+    width:20px;
+    height:20px;
     
 }
 
 .to-do h3{
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .to-do p{
-    font-size: 12px;
+    font-size: 10px;
 
 }
 
     .type{
         border-radius: 20px;
-        padding:5px;
+        padding:3px;
         padding-left: 10px;
       
     }
     
     .type input{
-        width:100%;
+        width:50%;
         border-radius:20px;
         padding:8px;
         
@@ -177,13 +182,29 @@ ul li span:hover{
     .type button{
 
         border-radius:20px;
-        padding:10px 30px;
+        padding:5px 15px;
        
 
     
     
     }
-    
+    ul li {
+        
+        font-size:13px;
+        padding: 12px 8px 12px 50px;
+      
+    }
+
+    ul li span {
+       
+        font-size:20px;
+        height:20px;
+        width:30px;
+        border-radius: 10px;
+        top:0;
+
+       
+    }
 
 
 }
