@@ -131,9 +131,7 @@ ul li span {
     text-align: center;
 }
 
-ul li span:hover{
-    background: #d3d3d3;
-}
+
 
 @media (max-width:740px){
 
